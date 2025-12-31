@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onboarding Screens</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Screen 1: Learn design -->
+        <div class="screen active" id="screen1">
+            <div class="phone-frame">
+                <div class="status-bar">
+                    <span class="time">9:41</span>
+                    <div class="status-icons">
+                        <span class="wifi">📶</span>
+                        <span class="battery">🔋</span>
+                    </div>
+                </div>
+                
+                <div class="screen-content">
+                    <div class="background-elements">
+                        <div class="glow-sphere yellow large left"></div>
+                        <div class="glow-sphere pink small right"></div>
+                        <div class="head-silhouette"></div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="header">120 HOURS OF VIDEO</div>
+                        <h1 class="title">Learn design</h1>
+                        <p class="description">Learn by building real apps using Swift, React, and more. Design files and source code are included for each course.</p>
+                        <button class="cta-button" onclick="nextScreen()">GET STARTED</button>
+                    </div>
+                    
+                    <div class="navigation-dots">
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                    
+                    <button class="close-button">✕</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Screen 2: Gain certificates and progress -->
+        <div class="screen" id="screen2">
+            <div class="phone-frame">
+                <div class="status-bar">
+                    <span class="time">9:41</span>
+                    <div class="status-icons">
+                        <span class="wifi">📶</span>
+                        <span class="battery">🔋</span>
+                    </div>
+                </div>
+                
+                <div class="screen-content">
+                    <div class="background-elements">
+                        <div class="glow-sphere yellow large left"></div>
+                        <div class="glow-sphere pink small right"></div>
+                        <div class="head-silhouette"></div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="header">TEST YOUR SKILLS</div>
+                        <h1 class="title">Gain <span class="accent">certificates</span> and progress</h1>
+                        <p class="description">Take tests and receive a certificate after completion. You can track your progress for each course and pick up where you left.</p>
+                        <button class="cta-button" onclick="nextScreen()">NEXT</button>
+                    </div>
+                    
+                    <div class="navigation-dots">
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                        <span class="dot"></span>
+                    </div>
+                    
+                    <button class="close-button">✕</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Screen 3: Watch on iPhone, iPad and web -->
+        <div class="screen" id="screen3">
+            <div class="phone-frame">
+                <div class="status-bar">
+                    <span class="time">9:41</span>
+                    <div class="status-icons">
+                        <span class="wifi">📶</span>
+                        <span class="battery">🔋</span>
+                    </div>
+                </div>
+                
+                <div class="screen-content">
+                    <div class="background-elements">
+                        <div class="glow-sphere pink-orange large center"></div>
+                    </div>
+                    
+                    <div class="content-card">
+                        <div class="header">LEARN ANYWHERE</div>
+                        <h1 class="title">Watch <span class="accent">on iPhone, iPad</span> and web</h1>
+                        <p class="description">Take tests and receive a certificate after completion. You can track your progress for each course and pick up where you left.</p>
+                        <button class="cta-button" onclick="nextScreen()">CLOSE</button>
+                    </div>
+                    
+                    <div class="navigation-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot active"></span>
+                    </div>
+                    
+                    <button class="close-button">✕</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
